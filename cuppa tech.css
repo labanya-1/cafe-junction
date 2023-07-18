@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color:#125412;
+}
+#logo{
+    color: #b5ab9f;
+    font-size: 25px;
+}
+button{
+    background-color:#f08804 ;
+}
+a{margin-right: 200px;
+    text-decoration: none;
+} 
+body{
+    background-image: url('bean.avif');
+    background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slide {
+    flex: 1 0 33.33%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .menu {
+    /* background-color: #fff; */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    color: #d7c8c8;
+    margin-bottom: 30px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+footer {
+    background-color: #6b1616;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #7a2828;
+    font-size: 14px;
+    margin: 0;
+  }
+  footer {
+    background-color: #181010;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  #my-paragraph,#food {
+    text-align: center;
+  font-size: larger;
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .opening-hours,{
+    flex-basis: 30%;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
